@@ -1,0 +1,22 @@
+p {
+    font-family: Lato;
+  }
+  
+    #div1 {
+      
+      height:85vh;
+      width: 150vh;
+      align-content: center;
+    
+    }
+    #div1 table {
+     width:500px;
+     background-color:lightgray;
+    }
+    
+    
+    
+    .centrar {
+      margin: auto;
+      width: 50% !important; 
+    }

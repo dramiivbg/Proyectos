@@ -1,0 +1,105 @@
+
+#div1 {
+  
+    height:85vh;
+    width: 150vh;
+    align-content: center;
+  
+  }
+  #div1 table {
+   width:500px;
+   background-color:lightgray;
+  }
+  
+  
+  
+  .centrar {
+    margin: auto;
+    width: 66% !important; 
+    
+  }
+  
+  .center {
+    width: 140vh;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+  
+  }
+  
+  .center1 {
+    width: 140vh;
+    height: 10vh;
+    text-align:center;
+    background-color: darkgreen;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+    
+  
+  }
+  
+  
+  /*portada*/
+  
+  .container-portada{
+  
+    width: 123%;
+    height: 613px;
+    background-image: url('src\app\img\coronavirus.jpg');
+    background-size: 100%;
+    animation: movimiento 10s infinite linear alternate;
+  
+  }
+  
+  @keyframes movimiento{
+      from{
+        background-position: bottom left;
+  
+      }to{
+        background-position: top right;
+  
+      }
+  
+  }
+  
+  .capa-gradient{
+    margin-top: 70px;
+    width: 83%;
+    height: 83%;
+    position: absolute;
+    background: -webkit-linear-gradient(left, black,
+    #0672d0);
+    opacity: 0.5;
+  }
+  
+  iframe{
+  
+    width: 80vh;
+    height: 50vh;
+  
+  }
+  
+  a{
+    color: lime;
+  }
+  
+  button{
+  
+    width: 80vh;
+  
+  }
+  
+  .details{
+  
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    top: 80px;
+    color: white;
+    left: 300px;
+    
+  
+  }
+  

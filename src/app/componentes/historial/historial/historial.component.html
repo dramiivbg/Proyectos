@@ -1,0 +1,56 @@
+<div class="centrar ">
+    <div id = "div1">
+    <table border="1" >
+     <thead>
+        <tr>
+          <th>id_de_caso</th><br>
+          <th> c_digo_divipola</th><br>
+          <th>ciudad_de_ubicaci_n</th><br>
+          <th>  codigo_departamento </th><br>
+          <th> codigo_pais </th><br>
+          <th> departamento </th><br>
+          <th> edad </th><br>
+          <th> estado </th><br>
+          <th> fecha_de_notificaci_n</th><br>
+          <th> fecha_diagnostico </th><br>
+          <th>  fecha_recuperado </th><br>
+          <th> fecha_reporte_web </th><br>
+          <th> fis </th><br>
+          <th> atenci_n </th><br>
+          <th> pa_s_de_procedencia </th><br>
+          <th> pertenencia_etnica </th><br>
+          <th>  sexo </th><br>
+          <th> tipo </th><br>
+          <th> tipo_recuperaci_n </th><br>
+          <th> nombre_grupo_etnico </th><br>
+        </tr>
+     </thead> 
+     
+     <tbody>
+        <tr *ngFor="let paciente of  pacientesList" >
+          <td>{{paciente.id_de_caso}}<td>
+          <td>{{paciente.c_digo_divipola}}</td><br>
+          <td>{{paciente.ciudad_de_ubicaci_n}}</td><br><br>
+          <td>{{paciente.codigo_departamento}}</td><br>
+          <td>{{paciente.codigo_pais}}</td><br>
+          <td>{{paciente.departamento}}</td><br>
+          <td>{{paciente.edad}}</td><br>
+          <td>{{paciente.estado}}</td><br>
+          <td>{{paciente.fecha_de_notificaci_n}}</td><br>
+          <td>{{paciente.fecha_diagnostico}}</td><br>
+          <td>{{paciente.fecha_recuperado}}</td><br>
+          <td>{{paciente.fecha_reporte_web}}</td><br>
+          <td>{{paciente.fis}}</td><br>
+          <td>{{paciente.atenci_n}}</td><br>
+          <td>{{paciente.pa_s_de_procedencia}}</td><br>
+          <td>{{paciente.pertenencia_etnica}}</td><br>
+          <td>{{paciente.sexo}}</td><br>
+          <td>{{paciente.tipo }}</td><br>
+          <td>{{paciente.tipo_recuperaci_n}}</td><br>
+          <td>{{paciente.nombre_grupo_etnico}}</td><br>
+  
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  </div>

@@ -26,7 +26,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["node_modules/chart.js/dist/Chart.js"]
           },
           "configurations": {
             "production": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "web"
+    }
+  },
+  "defaultProject": "web",
+  "cli": {
+    "analytics": "8731bf89-67aa-4fd6-8346-25b47ec9d250"
+  }
 }

@@ -1,0 +1,19 @@
+<div class="centrar ">
+    <div id="div1">
+      
+        
+          <div style="display: block" *ngIf="barChartData">
+            <canvas baseChart
+              [datasets]="barChartData"
+              [labels]="barChartLabels"
+              [options]="barChartOptions"
+              [plugins]="barChartPlugins"
+              [legend]="barChartLegend"
+              [chartType]="barChartType"
+              [colors]="chartColors">
+            </canvas>
+          </div>
+
+  </div>
+    </div>
+
